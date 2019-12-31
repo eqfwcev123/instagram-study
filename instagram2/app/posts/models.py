@@ -15,7 +15,7 @@ class Post(models.Model):
     created = models.DateField(auto_now_add=True)
 
     def __str__(self):
-        return f'{self.author}, {self.created}'
+        return f'{self.author} | {self.created}'
 
 
 class PostImage(models.Model):
