@@ -6,6 +6,3 @@ def index(request):
         return redirect('posts:post-list')
     else:
         return render(request, 'index.html')
-
-def index2(request):
-    pass
